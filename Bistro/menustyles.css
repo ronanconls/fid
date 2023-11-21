@@ -1,0 +1,122 @@
+@font-face {
+  font-family: "Kanit";
+  src: url("Kanit-Regular.ttf");
+}
+body {
+  font-family: Georgia, serif;
+  font-size: 100%;
+  line-height: 175%;
+  margin: 0 15% 0;
+  background: #464F5E url(images/blackgooseBG.png) no-repeat center 100px fixed;
+}
+header {
+  margin-top: 0;
+  padding: 1em 1em 2em 1em;
+  text-align: center;
+  background-color: rgba(255, 255, 255, .5);
+}
+p {
+  color: white;
+}
+dl {
+  color: white;
+}
+ul {
+  color: white;
+}
+ol {
+  color: white;
+}
+dt{
+  color: #B3A382;
+}
+fieldset{
+  color: #ffd37b;
+}
+
+nav li {
+  display: inline-block;
+  margin-right: 15px;
+}
+
+a {
+  text-decoration: none;
+}
+a:link {
+  /*color: #993399;*/
+  color: #5187df;
+  font-family: Kanit;
+}
+a:visited {
+  /*color: #937393;*/
+  color: #526380;
+  font-family: Kanit;
+}
+a:hover {
+  /*color: #c700f2;*/
+  color: #004dd3;
+  background-color: white;
+  font-family: Kanit;
+}
+a:active {
+  /*color: #ff00ff;*/
+  color: #005eff;
+  font-family: Kanit;
+}
+
+h1 {
+  font: bold 1.5em Georgia, serif;
+  text-shadow: .1em .1em .2em gray;
+  /*color: #993399;*/
+}
+h2 {
+  font-size: 1em;
+  text-transform: uppercase;
+  letter-spacing: .5em;
+  text-align: center;
+  color: #B3A382;
+}
+h3{
+  color: #ffd37b;
+}
+dt {
+  font-weight: bold;
+}
+strong {
+  font-style: italic;
+}
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+#info p {
+  font-style: italic;
+}
+.price {
+  font-family: Georgia, serif;
+  font-style: italic;
+}
+.warning, sup {
+  font-size: small;
+}
+.label {
+  font-weight: bold;
+  font-variant: small-caps;
+  font-style: normal;
+}
+
+h2 + p {
+  text-align: center;
+  font-style: italic;
+}
+
+footer {
+  border-top: 1px solid #57b1dc;
+  text-align: center;  padding-top: 1em; }
+
+footer img {  width: 40px;  height: 40px;
+              margin-left: .5em;  margin-right: .5em; } 
+
+
+
