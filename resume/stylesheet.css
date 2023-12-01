@@ -1,0 +1,92 @@
+    @font-face {
+        font-family: "Kanit";
+        src: url("Kanit-Regular.ttf"); }
+    body {
+        background-color: rgb(185, 180, 247);
+        margin : 0 10%;
+        font-family: sans-serif;
+        color: #001514;
+    }
+    p {
+        color: #001514;
+    }
+    ul {
+        color: #001514;
+    }
+    h1 {
+        text-align: center;
+        font-family: Georgia;
+        font-weight: bold;
+        border-bottom: double #57b1dc;
+        margin-top: 30px;
+    }
+    
+    #intro {
+        font-size: 1.5em;
+        color: #F2545B
+    }
+
+    h2 {
+        text-align: center;
+        font-family: Georgia;
+        font-weight: bolder;
+        font-size: 1.5em;
+    }
+
+    h3{
+        text-align: center;
+        font-family: Georgia;
+        font-weight: bolder;
+        font-size: 2em;
+        border-bottom: 20px;
+    }
+
+    h4{
+        text-align: center;
+        font-family: Georgia;
+        font-weight: bold;
+        font-size: 1em;
+    }
+
+    a {
+        text-decoration: none;
+      }
+      a:link {
+        /*color: #993399;*/
+        color: #5187df;
+        font-family: Kanit;
+      }
+      a:visited {
+        /*color: #937393;*/
+        color: #526380;
+        font-family: Kanit;
+      }
+      a:hover {
+        /*color: #c700f2;*/
+        color: #004dd3;
+        background-color: white;
+        font-family: Kanit;
+      }
+      a:active {
+        /*color: #ff00ff;*/
+        color: #005eff;
+        font-family: Kanit;
+      }
+
+    footer { 	      
+        text-align: center;  padding-top: 1em; } 
+    footer img {  width: 60px;  height: 60px;  
+                    margin-left: .5em;  margin-right: .5em; } 
+    fieldset{   
+        border-color:#57b1dc;
+        border-style: outset;
+        border-width: 3px;
+        text-align: center;
+     }
+     fieldset ul{
+        text-align: left;
+     }
+     fieldset a {
+        display: inline-block;
+        margin-right: 15px;
+      }
